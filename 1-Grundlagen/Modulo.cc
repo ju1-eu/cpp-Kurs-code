@@ -20,9 +20,9 @@
 //}
 //int modulo(int n1, int n2)
 //{
-//	// 10 / 3 = 3
+//	/*10 / 3 = 3 */ 
 //	int step1 = n1 / n2;
-//	// rest = 10 - 3*3 = 1
+//	/*rest = 10 - 3*3 = 1 */ 
 //	int step2 = n1 - (n2 * step1);
 //
 //	return step2;

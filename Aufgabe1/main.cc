@@ -15,10 +15,10 @@ int main()
     int I = 5;
     int J = 4;
     
-    // Funktionsaufruf
+    /*Funktionsaufruf */ 
     mod_cross_sum(I, J);
 
-    //cin.get();
+    cin.get();
 	getchar();
-	//return 0;
+	return 0;
 }

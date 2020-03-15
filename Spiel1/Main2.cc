@@ -1,5 +1,5 @@
 ///*
-//Steuerung Tastatur: a d s w
+//	Steuerung Tastatur: a d s w
 //*/
 //#include <iostream>
 //
@@ -13,19 +13,22 @@
 //
 //int main()
 //{
-//	// LEN_X = 10
-//	// Wir haben 10 Spielfelder insgesamt
-//	// Pos 0: Start, Pos 9: Ziel
+//	/*
+//		LEN_X = 10
+//		Wir haben 10 Spielfelder insgesamt
+//		Pos 0: Start, Pos 9: Ziel
+//	*/
+//
 //	unsigned int player_pos = 0;
 //	unsigned int start = 0;
 //	unsigned int ziel = LEN_X - 1;
 //
-//	char move; // Usereingabe
+//	char move; /*Usereingabe*/ 
 //	bool finished = false;
 //
 //	while (!finished)
 //	{
-//		// Gebe den GameState aus (gebe das Spielbrett aus)
+//		/*Gebe den GameState aus (gebe das Spielbrett aus)*/ 
 //		for (int i = 0; i < LEN_X; i++)
 //		{
 //			if (i != player_pos && i != ziel && i != start)
@@ -38,7 +41,7 @@
 //
 //		cin >> move;
 //
-//		// Fuehre den eingegebenen move aus
+//		/*Fuehre den eingegebenen move aus*/ 
 //		if (move == LEFT)
 //		{
 //			player_pos--;
@@ -54,7 +57,7 @@
 //			cout << "d" << endl;
 //		}
 //
-//		// Ueberpreufe ob das Spiel gewonnen ist
+//		/*Ueberpreufe ob das Spiel gewonnen ist*/ 
 //		if (player_pos == ziel)
 //		{
 //			cout << "You won the game!" << endl;

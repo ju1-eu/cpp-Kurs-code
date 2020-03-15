@@ -1,15 +1,15 @@
 ///*
-//Betrag
+//	Betrag
 //
-//|x| = x für x >= 0; 
-//	 -x für x < 0
+//	|x| = x für x >= 0; 
+//		 -x für x < 0
 //*/
 //#include <iostream>
 //
 //int main()
 //{
 //	int number;
-//	int abs; // absolute = Betrag
+//	int abs; /*absolute = Betrag */ 
 //
 //	std::cout << "Eingabe Zahl: ";
 //	std::cin >> number;
@@ -18,7 +18,7 @@
 //	{
 //		abs = number * (-1);
 //	}
-//	else // (number >= 0)
+//	else /*(number >= 0) */ 
 //	{
 //		abs = number;
 //	}

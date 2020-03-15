@@ -1,5 +1,5 @@
 ///*
-//  Rekursive Funktion
+//	Rekursive Funktion
 //	Fakultät: 3! = 1*2*3
 //
 //	Eingabe Fakultät: Reicht der Datentyp aus?
@@ -19,7 +19,7 @@
 //unsigned int fac(unsigned int n);
 //
 //int main(){
-//	unsigned int n = 13;// Eingabe Fakultät: Reicht der Datentyp aus?
+//	unsigned int n = 13;/*Eingabe Fakultät: Reicht der Datentyp aus? */ 
 //	unsigned int n_fac = fac(n);
 //
 //	std::cout << n << "! = " << n_fac << std::endl;

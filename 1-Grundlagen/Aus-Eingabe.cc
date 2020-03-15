@@ -7,13 +7,13 @@
 //	int zahl2;
 //	int ergebnis;
 //
-//	// INPUT VOM USER
+//	/*INPUT VOM USER */ 
 //	cout << "Gebe Zahl1 ein!" << endl;
 //	cin >> zahl1;
 //	cout << "Gebe Zahl2 ein!" << endl;
 //	cin >> zahl2;
 //
-//	// Mult *, Add +, SUbtr -, Div /
+//	/*Mult *, Add +, SUbtr -, Div / */ 
 //	ergebnis = zahl1 * zahl2;
 //
 //	cout << "Ergebnis: " << ergebnis << endl;
@@ -28,7 +28,7 @@
 //
 //	cout << "Buchstabe: " << buchstabe1 << endl;
 //
-//	// False = 0, True = 1
+//	/*False = 0, True = 1 */ 
 //	bool aussage1 = 1;
 //	bool aussage2 = 0;
 //

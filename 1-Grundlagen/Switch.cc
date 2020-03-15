@@ -1,6 +1,5 @@
 ///*
-//Süssigkeitautomat
-//
+//	Süssigkeitautomat
 //*/
 //#include <iostream>
 //

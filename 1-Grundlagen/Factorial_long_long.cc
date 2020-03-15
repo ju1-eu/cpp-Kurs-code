@@ -17,7 +17,7 @@
 //unsigned long long fac(unsigned long long n);
 //
 //int main(){
-//	unsigned long long n = 20;// Eingabe Fakultät: Reicht der Datentyp aus?
+//	unsigned long long n = 20;/*Eingabe Fakultät: Reicht der Datentyp aus? */ 
 //	unsigned long long n_fac = fac(n);
 //
 //	std::cout << n << "! = " << n_fac << std::endl;
