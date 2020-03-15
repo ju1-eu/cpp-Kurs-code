@@ -26,28 +26,29 @@ Repository = cpp-Kurs-code
 
 Download: <https://visualstudio.microsoft.com/de/vs/>
 	
+    Visual Studio 2019 öffnen
 	Neues Projekt erstellen / Leeres Projekt
 		- Projektname: 1-Grundlagen
 		- Ort: "C:\daten\projekte\c\C++Kurs\prj\"
 		- Name Projektmappe: cpp-Kurs-code
 	
-    Projektmappe
+    Projektmappe (re. Mausklick)
         - Projektmappe erstellen
         - Projektmappe bereinigen
 
     Datei / Neu / Projekt / Leeres Projekt 
             - Projektname: 1-Grundlagen
             - Ort: "C:\daten\projekte\c\C++Kurs\prj\"
-    Projektmappe
+    Projektmappe (re. Mausklick)
 		Projekt auswahl / Quellcodedateien / Hinzufügen / 
             - Neues Element       (C++ Datei)
             - Vorhandenes Element (C++ Datei)
 	
-	Nur eine Ma1in-Funktion!
+	Nur eine Main-Funktion, wenn mehrere *.cpp im Projektordner!
 		- Code auskommentieren: (Strg + K, Strg + C)
 		- Kommentar entfernen:  (Strg + K, Strg + U)
 	
-	Projektmappe
+	Projektmappe (re. Mausklick)
 		Projekt auswahl / Als Startprojekt festlegen
 
 ## Editor - Visual Studio Code
