@@ -26,6 +26,7 @@ Repository = cpp-Kurs-code
 
 Download: <https://visualstudio.microsoft.com/de/vs/>
 	
+    Install: Visual Studio 2019 / C++ Build Tools
     Visual Studio 2019 öffnen
 	Neues Projekt erstellen / Leeres Projekt
 		- Projektname: 1-Grundlagen
@@ -105,17 +106,30 @@ Visual Studio Code to use the GCC C++ compiler
 ### Build helloworld.cpp (Ctrl+Shift+B)
 
     # Datei .vscode/tasks.json
-
     {
     "version": "2.0.0",
     "tasks": [
         {
         "type": "shell",
-        "label": "g++.exe build active file",
-        "command": "C:\\mingw-w64\\i686-8.1.0-posix-dwarf-rt_v6-rev0\\mingw32\\bin\\g++.exe",
-        "args": ["-g", "${file}", "-o", "${fileDirname}\\${fileBasenameNoExtension}.exe"],
+        "label": "c++ Debug",
+        "command": "C:\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe",
+        "args": ["-g3", "${file}", "-o", "${fileDirname}\\${fileBasenameNoExtension}Debug.exe"],
         "options": {
-            "cwd": "C:\\mingw-w64\\i686-8.1.0-posix-dwarf-rt_v6-rev0\\mingw32\\bin"
+            "cwd": "C:\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin"
+        },
+        "problemMatcher": ["$gcc"],
+        "group": {
+            "kind": "build",
+            "isDefault": true
+        }
+        },
+        {
+        "type": "shell",
+        "label": "c++ Release",
+        "command": "C:\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe",
+        "args": ["-g3", "${file}", "-o", "${fileDirname}\\${fileBasenameNoExtension}Release.exe"],
+        "options": {
+            "cwd": "C:\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin"
         },
         "problemMatcher": ["$gcc"],
         "group": {
@@ -129,22 +143,21 @@ Visual Studio Code to use the GCC C++ compiler
 ### Debug (F5) - Debugging starten
 
     # Datei .vscode/launch.json
-
     {
     "version": "0.2.0",
     "configurations": [
         {
-        "name": "g++.exe build and debug active file",
+        "name": "(gdb) debug",
         "type": "cppdbg",
         "request": "launch",
-        "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+        "program": "${fileDirname}\\${fileBasenameNoExtension}Debug.exe",
         "args": [],
         "stopAtEntry": false,
         "cwd": "${workspaceFolder}",
         "environment": [],
         "externalConsole": false,
         "MIMode": "gdb",
-        "miDebuggerPath": "C:\\mingw-w64\\i686-8.1.0-posix-dwarf-rt_v6-rev0\\mingw32\\bin\\gdb.exe",
+        "miDebuggerPath": "C:\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\gdb.exe",
         "setupCommands": [
             {
             "description": "Enable pretty-printing for gdb",
@@ -152,7 +165,7 @@ Visual Studio Code to use the GCC C++ compiler
             "ignoreFailures": true
             }
         ],
-        "preLaunchTask": "g++.exe build active file"
+        "preLaunchTask": "c++ Debug"
         }
     ]
     }
