@@ -31,19 +31,24 @@ Download: <https://visualstudio.microsoft.com/de/vs/>
 		- Ort: "C:\daten\projekte\c\C++Kurs\prj\"
 		- Name Projektmappe: cpp-Kurs-code
 	
-	Projektmappe erstellen: "cpp-Kurs-code"
-		- Projekt erstellen: "1-Grundlagen"
-			- Quellcodedateien hinzufügen
-				Neues Element       (C++ Datei)
-				Vorhandenes Element (C++ Datei)
-	Projektmappe bereinigen
+    Projektmappe
+        - Projektmappe erstellen
+        - Projektmappe bereinigen
+
+    Datei / Neu / Projekt / Leeres Projekt 
+            - Projektname: 1-Grundlagen
+            - Ort: "C:\daten\projekte\c\C++Kurs\prj\"
+    Projektmappe
+		Projekt auswahl / Quellcodedateien / Hinzufügen / 
+            - Neues Element       (C++ Datei)
+            - Vorhandenes Element (C++ Datei)
 	
-	Nur eine Main-Funktion!
+	Nur eine Ma1in-Funktion!
 		- Code auskommentieren: (Strg + K, Strg + C)
 		- Kommentar entfernen:  (Strg + K, Strg + U)
 	
 	Projektmappe
-		Projekt / Als Startprojekt festlegen
+		Projekt auswahl / Als Startprojekt festlegen
 
 ## Editor - Visual Studio Code
 
