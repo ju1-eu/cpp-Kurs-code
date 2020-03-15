@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kap1-grundlagen", "kap1-grundlagen\kap1-grundlagen.vcxproj", "{A546A9A8-43A6-499F-B8CD-A9A4A306DC01}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kap2-Zeiger-Referenzen", "kap2-Zeiger-Referenzen\kap2-Zeiger-Referenzen.vcxproj", "{E9F498B5-532D-481F-852E-938F5ABEEE10}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Spiel1", "Spiel1\Spiel1.vcxproj", "{1BFF6BEE-49A7-4216-A603-380FA413B130}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Aufg1", "kap1-Aufgabe\kap1-Aufgabe.vcxproj", "{4FE04335-0FF7-4D46-9131-121D25DB940F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1-Grundlagen", "1-Grundlagen\1-Grundlagen.vcxproj", "{A546A9A8-43A6-499F-B8CD-A9A4A306DC01}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2-Zeiger-Referenzen", "2-Zeiger-Referenzen\2-Zeiger-Referenzen.vcxproj", "{E9F498B5-532D-481F-852E-938F5ABEEE10}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Aufg1", "Aufgabe1\Aufgabe1.vcxproj", "{4FE04335-0FF7-4D46-9131-121D25DB940F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +19,14 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BFF6BEE-49A7-4216-A603-380FA413B130}.Debug|x64.ActiveCfg = Debug|x64
+		{1BFF6BEE-49A7-4216-A603-380FA413B130}.Debug|x64.Build.0 = Debug|x64
+		{1BFF6BEE-49A7-4216-A603-380FA413B130}.Debug|x86.ActiveCfg = Debug|Win32
+		{1BFF6BEE-49A7-4216-A603-380FA413B130}.Debug|x86.Build.0 = Debug|Win32
+		{1BFF6BEE-49A7-4216-A603-380FA413B130}.Release|x64.ActiveCfg = Release|x64
+		{1BFF6BEE-49A7-4216-A603-380FA413B130}.Release|x64.Build.0 = Release|x64
+		{1BFF6BEE-49A7-4216-A603-380FA413B130}.Release|x86.ActiveCfg = Release|Win32
+		{1BFF6BEE-49A7-4216-A603-380FA413B130}.Release|x86.Build.0 = Release|Win32
 		{A546A9A8-43A6-499F-B8CD-A9A4A306DC01}.Debug|x64.ActiveCfg = Debug|x64
 		{A546A9A8-43A6-499F-B8CD-A9A4A306DC01}.Debug|x64.Build.0 = Debug|x64
 		{A546A9A8-43A6-499F-B8CD-A9A4A306DC01}.Debug|x86.ActiveCfg = Debug|Win32
@@ -35,14 +43,6 @@ Global
 		{E9F498B5-532D-481F-852E-938F5ABEEE10}.Release|x64.Build.0 = Release|x64
 		{E9F498B5-532D-481F-852E-938F5ABEEE10}.Release|x86.ActiveCfg = Release|Win32
 		{E9F498B5-532D-481F-852E-938F5ABEEE10}.Release|x86.Build.0 = Release|Win32
-		{1BFF6BEE-49A7-4216-A603-380FA413B130}.Debug|x64.ActiveCfg = Debug|x64
-		{1BFF6BEE-49A7-4216-A603-380FA413B130}.Debug|x64.Build.0 = Debug|x64
-		{1BFF6BEE-49A7-4216-A603-380FA413B130}.Debug|x86.ActiveCfg = Debug|Win32
-		{1BFF6BEE-49A7-4216-A603-380FA413B130}.Debug|x86.Build.0 = Debug|Win32
-		{1BFF6BEE-49A7-4216-A603-380FA413B130}.Release|x64.ActiveCfg = Release|x64
-		{1BFF6BEE-49A7-4216-A603-380FA413B130}.Release|x64.Build.0 = Release|x64
-		{1BFF6BEE-49A7-4216-A603-380FA413B130}.Release|x86.ActiveCfg = Release|Win32
-		{1BFF6BEE-49A7-4216-A603-380FA413B130}.Release|x86.Build.0 = Release|Win32
 		{4FE04335-0FF7-4D46-9131-121D25DB940F}.Debug|x64.ActiveCfg = Debug|x64
 		{4FE04335-0FF7-4D46-9131-121D25DB940F}.Debug|x64.Build.0 = Debug|x64
 		{4FE04335-0FF7-4D46-9131-121D25DB940F}.Debug|x86.ActiveCfg = Debug|Win32
