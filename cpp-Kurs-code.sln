@@ -9,7 +9,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kap2-Zeiger-Referenzen", "k
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Spiel1", "Spiel1\Spiel1.vcxproj", "{1BFF6BEE-49A7-4216-A603-380FA413B130}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kap1-Aufgabe", "kap1-Aufgabe\kap1-Aufgabe.vcxproj", "{4FE04335-0FF7-4D46-9131-121D25DB940F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Aufg1", "kap1-Aufgabe\kap1-Aufgabe.vcxproj", "{4FE04335-0FF7-4D46-9131-121D25DB940F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

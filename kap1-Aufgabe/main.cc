@@ -18,7 +18,7 @@ int main()
     // Funktionsaufruf
     mod_cross_sum(I, J);
 
-    cin.get();
-	//getchar();
-	return 0;
+    //cin.get();
+	getchar();
+	//return 0;
 }

@@ -15,7 +15,7 @@ using std::cin;
 int main(){
 	cout << "Hallo Welt!" << endl;
 	
-	cin.get();
+	//cin.get();
 	getchar();
-	return 0;
+	//return 0;
 }
