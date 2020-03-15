@@ -1,26 +1,42 @@
 # cpp-Kurs-code
 
-## Github Repository anlegen
+Quelle: Jan Schaffranek (Udemy)
 
-Repository = cpp-Kurs-code 
+## Notizen neu erstellen
 
-    echo "# cpp-Kurs-code" >> README.md
-    git init
-    git add README.md
-    git commit -m "first commit"
-    git remote add origin https://github.com/ju1-eu/cpp-Kurs-code.git
-    git push -u origin master
+    # Projektordner öffnen
+    git clone https://github.com/ju1-eu/Ordnerpaket-Notiz.git notiz
+    cd notiz
+    "Readme.md" lesen !
 
-## Github Repository clonen
+## Versionsverwaltung mit Git
 
-    git clone https://github.com/ju1-eu/cpp-Kurs-code.git 
-    git status
-    git log
-    #git init
+    # Projektordner öffnen
+    git init  # Repository neu erstellen
     git add .
+    git commit -am "Projekt start"
     git commit -a
+    # letzten Commit rueckgaengig
+    git commit --amend
+
+    # Github - Repository nicht vorhanden?
+    # Repository neu anlegen
+    $THEMA   = "cpp-Kurs-code" # Repository
+    $ADRESSE = "https://github.com/ju1-eu"
+    git remote add origin $ADRESSE/${THEMA}.git
+    git push --set-upstream origin master
+
+    # Github - Repository vorhanden?
+    # git clone
+    $THEMA   = "cpp-Kurs-code" # Repository
+    $ADRESSE = "https://github.com/ju1-eu"
+    git clone $ADRESSE/${THEMA}.git
+
     git pull
     git push
+
+    git st # status
+    git lg # log
 
 ## IDE - Visual Studio 2019
 
