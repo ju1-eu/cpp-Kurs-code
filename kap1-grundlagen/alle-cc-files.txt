@@ -1,0 +1,41 @@
+ju 12-Mrz-20 alle-cc-files.txt
+
+in Makefile speichern:
+#----------------------
+
+TARGETS=\
+	Main.exe \
+	Spiel.exe \
+	Abfragen.exe \
+	Abfragen2.exe \
+	Aus-Eingabe.exe \
+	Factorial.exe \
+	For-Schleife.exe \
+	Funktionen.exe \
+	GCD.exe \
+	Schleifen2.exe \
+	SUM.exe \
+	Switch.exe \
+	Variablen.exe \
+	Verschachtelte-For-Schleife.exe \
+	While-Schleife.exe \
+#-----------------------
+
+clean:
+	rm Main.exe
+	rm Spiel.exe
+	rm Abfragen.exe
+	rm Abfragen2.exe
+	rm Aus-Eingabe.exe
+	rm Factorial.exe
+	rm For-Schleife.exe
+	rm Funktionen.exe
+	rm GCD.exe
+	rm Schleifen2.exe
+	rm SUM.exe
+	rm Switch.exe
+	rm Variablen.exe
+	rm Verschachtelte-For-Schleife.exe
+	rm While-Schleife.exe
+#-----------------------
+
