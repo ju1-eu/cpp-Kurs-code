@@ -1,9 +1,5 @@
 /*
 	ju 11-Mrz-20 main.cpp
-
-	Visual Studio 2019
-	auskommentieren:     (Strg + K, Strg + C)
-	Kommentar entfernen: (Strg + K, Strg + U)
 */
 #include <iostream>
 

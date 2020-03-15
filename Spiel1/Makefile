@@ -1,4 +1,4 @@
-# ju  12-Mrz-20  Makefile - Win10
+# ju  15-Mrz-20  Makefile - Win10
 # *.c
 TARGETS=\
 	Main.exe \
@@ -47,6 +47,5 @@ clean:
 	#rm -rf *.exe *~ *.o
 	rm Main.exe
 
-	#rm main.o
-	#rm mainRelease.exe 
-	#rm mainDebug.exe 
+	#rm MainRelease.exe 
+	#rm MainDebug.exe 

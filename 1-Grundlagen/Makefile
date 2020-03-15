@@ -1,22 +1,7 @@
-# ju  12-Mrz-20  Makefile - Win10
+# ju  15-Mrz-20  Makefile - Win10
 # *.c
 TARGETS=\
 	Main.exe \
-	Abfragen.exe \
-	Abfragen2.exe \
-	Aus-Eingabe.exe \
-	Factorial.exe \
-	For-Schleife.exe \
-	Funktionen.exe \
-	GCD.exe \
-	Schleifen2.exe \
-	SUM.exe \
-	Switch.exe \
-	Variablen.exe \
-	Verschachtelte-For-Schleife.exe \
-	While-Schleife.exe \
-
-
 
 #-----------------------------------
 # c
@@ -61,21 +46,6 @@ clean:
 	#rm -r *.exe -Force
 	#rm -rf *.exe *~ *.o
 	rm Main.exe
-	rm Abfragen.exe
-	rm Abfragen2.exe
-	rm Aus-Eingabe.exe
-	rm Factorial.exe
-	rm For-Schleife.exe
-	rm Funktionen.exe
-	rm GCD.exe
-	rm Schleifen2.exe
-	rm SUM.exe
-	rm Switch.exe
-	rm Variablen.exe
-	rm Verschachtelte-For-Schleife.exe
-	rm While-Schleife.exe
 
-
-	#rm main.o
-	#rm mainRelease.exe 
-	#rm mainDebug.exe 
+	#rm MainRelease.exe 
+	#rm MainDebug.exe 
